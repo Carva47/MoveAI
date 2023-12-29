@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background: var(--Gradientes-Gradiente-Normal, linear-gradient(91deg, #8323FF 0.99%, #FF2DAF 102.1%));
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    background-color:#1E1F28;
+    margin: 12% auto;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border: 8px solid #cba7fa;
+}
