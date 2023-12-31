@@ -199,6 +199,9 @@ class MoveAi extends HTMLElement{
             padding:1px ;
             margin-right: 5px;
         }
+        a{
+            text-decoration: none;
+        }
         `;
 
         return style;
