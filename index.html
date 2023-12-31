@@ -7,35 +7,46 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css"> 
+<link rel="shortcut icon" href="assets/img/Logo.svg" type="image/x-icon">
 <title>MoveAI</title>
 </head>
 <body>
+    
 
+    <div class="container-header">
+        <header-component> </header-component>
+    </div>
     <div class="container">
+     
     <move-ai
     title = "Barbie" 
     num-star = "4.9"
     img = "assets/img/barbie.png"
     tempo ="1:54:00"
     data ="2023"
+    link = "https://youtu.be/Ujs1Ud7k49M"
     ></move-ai>
+
     <move-ai
     title = "Oppenheimer" 
     num-star = "4.9"
     img = "assets/img/oppenheimer.png"
     tempo ="1:54:00"
     data ="2023"
+    link = "https://youtu.be/bK6ldnjE3Y0"  
     ></move-ai>
 
     <move-ai
-    title = "Indiana Jones" 
+    title = "Indiana Jones o Chamado do Destino" 
     num-star = "4.9"
     img = "assets/img/indiana.png"
     tempo ="1:54:00"
     data ="2023"
+    link = "https://youtu.be/eQfMbSe7F2g"
     ></move-ai>
     </div>
 
+    <script src="src/components/header.js"></script>
 <script src="src/components/MoveAi.js" defer></script>
 </body>
 </html>

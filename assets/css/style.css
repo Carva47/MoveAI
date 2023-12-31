@@ -11,8 +11,19 @@ body{
     flex-direction:row;
     flex-wrap: wrap;
     background-color:#1E1F28;
-    margin: 12% auto;
+    margin: 0 auto 9%  auto;
     justify-content: space-evenly;
-    border-radius: 10px;
-    border: 8px solid #cba7fa;
+    border-radius: 0  0 10px 10px;
+    border-right: 8px solid #cba7fa;
+    border-left: 8px solid #cba7fa;
+    border-bottom: 8px solid #cba7fa;
+}
+.container-header{
+    background-color:#1E1F28;
+    margin: 9% auto -1% auto;
+    justify-content: space-evenly;
+    border-radius: 10px 10px 0 10px;
+    border-right: 8px solid #cba7fa;
+    border-left: 8px solid #cba7fa;
+    border-top: 8px solid #cba7fa;
 }
